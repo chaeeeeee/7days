@@ -8,7 +8,7 @@ abstract class Vehicle {
 }
 class Car extends Vehicle {
   private String name;
-  public Car(String val){
+  public Car(String val){  //생성자
     name = super.name = val;
   }
   public String getName(String val){
@@ -27,3 +27,5 @@ public class Test{
 
 //답
 //Vehicle name : Spark
+//Car 클래스의 생성자에서 super.name에 Spark를 할당 -> name = Spark
+//obj.getName()을 호출하면 Vehicle 클래스의 getName()이 호출됨
