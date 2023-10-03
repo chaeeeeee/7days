@@ -4,4 +4,5 @@
 --<학생> 테이블을 참조하는 모든 데이터도 함께 제거한다.
 --<SQL문> DROP TABLE 학생 (    );
 
+--답
 DROP TABLE 학생 CASCADE;
