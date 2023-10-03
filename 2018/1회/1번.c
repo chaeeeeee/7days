@@ -13,37 +13,39 @@ int stack[MAX_STACK_SIZE];
 int top = -1;
 
 void push(int item) {
-	if (top >= (   1   ))
-    {
+	if (top >= (   1   )) {
     	printf("stack is full\n");
-    }
-    stack[++top] = (  2  );
+    	}
+    	stack[++top] = (  2  );
 }
 int pop() {
-	if (top == (  3  ))
-    {
-    	printf("stack is empty\n");
-    }
-    return stack[(  4  )];
+	if (top == (  3  )) {
+    		printf("stack is empty\n");
+    	}
+	return stack[(  4  )];
 }
 int isempty() {
 	if (top == (  3  ))
-    	return 1; else return 0;
+    		return 1; 
+	else 
+		return 0;
 }
 int isfull() {
 	if (top >= (  1  ))
-    	return 1; else return 0;
+    		return 1; 
+	else 
+		return 0;
 }
 int main() {
 	int e;
-  push(20); 
-  push(30); 
-  push(40);
-  printf("stack's status\n");
-  while (!isempty()) {
-    e = pop();
-    printf("value = %d\n", e);
-  }
+  	push(20); 
+  	push(30); 
+  	push(40);
+  	printf("stack's status\n");
+  	while (!isempty()) {
+    		e = pop();
+    		printf("value = %d\n", e);
+  	}
 }
 
 //답
