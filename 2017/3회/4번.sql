@@ -23,6 +23,7 @@ CREATE TABLE 학생
     CONSTRAINT 생년월일제약
       CHECK(생년월일 >= '1980-01-01') );
 
+
 --답
 --1: NOT NULL
 --2: PRIMARY
