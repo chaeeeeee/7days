@@ -2,6 +2,7 @@
 --<SQL문>
 (  1  ) TABLE 학생 (  2  ) 학년 VARCHAR(3);
 
+
 --답
 --1: ALTER
 --2: ADD
